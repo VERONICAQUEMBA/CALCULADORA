@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.calculadora{
+   background-color: #643843;
+}
+
+html {
+    font-family: 'Ubundu', sans-serif;
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2rem;
+    border: 1px solid #643843;
+}
+
+.calculator-display {
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 3px solid #643843;
+    overflow-x: auto;
+}
+.calculator-keypad {
+    display: flex;
+    width: 100%;
+}
+.keypad-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.keypad-button {
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ca8a8a(27, 136, 127, 0.911);
+    border: 3px solid #643843;
+}
+.keypad-button:hover {
+    filter: brightness(80%);
+    transition: filter .25s;
+
+}
+.keypad-button.yellow {
+    background-color: rgba(209, 128, 104, 0.932);
+}
+.keypad-button.large {
+    width: 50%;
+}
+.keypad-button.dark {
+    background-color: #643843;
+}
+.body {
+    background-color: rgb(255, 168, 127);
+
+}
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
